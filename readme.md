@@ -16,6 +16,10 @@ To compile conversor.c use:
 
 Flag '-lm' is important for math library
 
+To genearate the assambly file (conversor.s) use:
+
++ gcc -Wall -S conversor.c
+
 Execute
 --------------------
 
