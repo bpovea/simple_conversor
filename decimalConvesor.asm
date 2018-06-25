@@ -9,11 +9,15 @@ c: .word 0
 	la $t0, d	#load adress of every variable d,e,c
 	la $t1, e
 	la $t2, c
+<<<<<<< HEAD
 	li $t0, 0
 	li $t1, 0
 	li $t2, 0
 	
 	li $s0, 10 #CONSTANTE PARA LOS WHILE
+=======
+	li $s0, 2 #variable num
+>>>>>>> 539465c0ac211b4a2d909d29a4cfe358d374212d
 	li $s1, 1 #contador para el pow
 	li $s3, 2 #numero inicial para hacer el pow
 	li $s4, 2 #constante para operaciones multi
@@ -75,5 +79,8 @@ pow:	#Recibe 2 argumentos
 
 
 labelderegreso:
+<<<<<<< HEAD
 	li $s1, 1
+=======
+>>>>>>> 539465c0ac211b4a2d909d29a4cfe358d374212d
 	jr $ra
