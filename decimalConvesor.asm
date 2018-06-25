@@ -10,7 +10,7 @@ c: .word 0
 	la $t0, d	#load adress of every variable d,e,c
 	la $t1, e
 	la $t2, c
-	li $s0, 10 #variable num
+	li $s0, 2 #variable num
 	li $s1, 1 #contador para el pow
 	li $s3, 2 #numero inicial para hacer el pow
 	li $s4, 2 #constante para operaciones multi
